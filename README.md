@@ -51,7 +51,7 @@ Recorded audio will go through white and pink noise filters first. Then, we will
     * Run the notebook.
 
 **Dataset to be used**:
-* We have our own dataset of about 200 GB of songs which we shall be using for this project.
+* We used our own dataset of 10 songs for this project.
 
 **References**:
 1. Ahmed, S., Afroz, F., Tawsif, A., & Huq, A. (2015). CANCELLATION OF WHITE AND COLOR NOISE WITH ADAPTIVE FILTER USING LMS ALGORITHM.
