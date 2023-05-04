@@ -29,7 +29,7 @@ We will develop two adaptive filters ([1]):
 We will take the dataset of songs, add the following effects to them by making their copies:
 
 1. Convolving with different audio impulse responses to simulate different environments.
-1. Adding white and pink noises of different amplitudes.
+1. Adding white noise.
 1. Adding various effects like delay, reverb and distortion by creating even more copies.
 
 This will be our new dataset upon which training will be performed.
