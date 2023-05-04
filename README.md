@@ -41,6 +41,12 @@ Recorded audio will go through white and pink noise filters first. Then, we will
 * A GitHub repository containing the source code and documentation of the project.
 * An oral presentation in class.
 
+**How to Use Files**:
+* Convolution.py can be used to convolve any two "*.wav" files to create another one.
+* Distortion.py can be used to add either tanh distortion or clipping distortion or both to any audio file.
+* WeinerFilter.py can be used to filter out noise from any signal.
+* "Robust Music Recognition.ipynb" is the main recognizer's implementation.
+
 **Dataset to be used**:
 * We have our own dataset of about 200 GB of songs which we shall be using for this project.
 
