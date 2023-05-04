@@ -47,7 +47,7 @@ Recorded audio will go through white and pink noise filters first. Then, we will
 * "Robust Music Recognition.ipynb" is the main recognizer's implementation.
     * Create your own dataset of audio files in a "./Data" folder.
     * Create a "Train" folder inside it.
-    * Copy the "Impulses" folder into the "Data" folder.
+    * Copy the "Impulses" folder into the "Data" folder. Feel free to add your own impulse responses as well. Some good samples are available at [link 1](https://www.pro-tools-expert.com/production-expert-1/free-impulse-responses-excellent-for-sound-design-and-post-production), [link 2](https://github.com/RoyJames/room-impulse-responses), [link 3](https://bedroomproducersblog.com/2014/05/22/free-boss-gt-8-reverb-impulse-response-pack-animus-invidious/), [link 4](https://sonicstate.com/news/2023/03/31/free-impulse-response-pack-/) and so on...
     * Run the notebook.
 
 **Dataset to be used**:
