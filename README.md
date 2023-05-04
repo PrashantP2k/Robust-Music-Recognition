@@ -21,10 +21,9 @@ Often times when we attend some public event, we come across someone playing som
 We decide to use more signal processing to create a more robust audio recognition system. Shazam will not be able to recognize songs in low SNR environments. Also, if the recorded audio has added effects, as are added in songs nowadays, then Shazam fails to recognize such songs.
 
 **Methodology**:
-We will develop two adaptive filters ([1]):
+We will develop an adaptive filter ([1]):
 
-1. White noise remover.
-1. Pink noise remover.
+1. Noise removal filter (Wiener filter).
 
 We will take the dataset of songs, add the following effects to them by making their copies:
 
@@ -46,6 +45,10 @@ Recorded audio will go through white and pink noise filters first. Then, we will
 * Distortion.py can be used to add either tanh distortion or clipping distortion or both to any audio file.
 * WeinerFilter.py can be used to filter out noise from any signal.
 * "Robust Music Recognition.ipynb" is the main recognizer's implementation.
+    * Create your own dataset of audio files in a "./Data" folder.
+    * Create a "Train" folder inside it.
+    * Copy the "Impulses" folder into the "Data" folder.
+    * Run the notebook.
 
 **Dataset to be used**:
 * We have our own dataset of about 200 GB of songs which we shall be using for this project.
