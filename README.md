@@ -33,7 +33,7 @@ We will take the dataset of songs, add the following effects to them by making t
 
 This will be our new dataset upon which training will be performed.
 
-Recorded audio will go through white and pink noise filters first. Then, we will calculate its spectrogram and identify acoustic fingerprints. Now, we feed these fingerprints into a deep neural network which will tell us the index of the song which that audio clip most likely corresponds to.
+Recorded audio will go through the Wiener noise filter first. Then, we will calculate its spectrogram and identify acoustic fingerprints. Now, we feed these fingerprints into a deep neural network which will tell us the index of the song which that audio clip most likely corresponds to.
 
 **Deliverables**:
 * A .ipynb notebook detailing the variability analysis of songs with added effects and the development of the signature recognition system.
